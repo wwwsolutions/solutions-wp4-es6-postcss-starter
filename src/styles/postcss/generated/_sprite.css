@@ -1,0 +1,63 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+.icon {
+  background-image: url('/assets/sprites/sprite-922f93fb.svg');
+}
+.no-svg .icon {
+  background-image: url('/assets/sprites/sprite-922f93fb.png');
+}
+
+.icon--babel {
+  width: 130px;
+  height: 130px;
+  background-position: 66.66666666666667% 0;
+}
+
+.icon--es6 {
+  width: 130px;
+  height: 130px;
+  background-position: 66.66666666666667% 45.138888888888886%;
+}
+
+.icon--gulp {
+  width: 130px;
+  height: 288px;
+  background-position: 0 0;
+}
+
+.icon--javascript {
+  width: 130px;
+  height: 130px;
+  background-position: 100% 0;
+}
+
+.icon--jquery {
+  width: 130px;
+  height: 130px;
+  background-position: 100% 45.138888888888886%;
+}
+
+.icon--npm {
+  width: 130px;
+  height: 130px;
+  background-position: 0 100%;
+}
+
+.icon--postcss {
+  width: 129px;
+  height: 128px;
+  background-position: 66.49616368286445% 99.3103448275862%;
+}
+
+.icon--ramda {
+  width: 130px;
+  height: 202px;
+  background-position: 33.333333333333336% 0;
+}
+
+.icon--webpack {
+  width: 130px;
+  height: 130px;
+  background-position: 33.333333333333336% 100%;
+}

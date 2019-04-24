@@ -1,0 +1,23 @@
+/* @MOBILE-FIRST-STRATEGY
+
+  > WARNING!
+  > ORDER OF BREAKPOINTS MATTERS!
+
+    [default]
+    atSmall
+    atMedium
+    atLarge
+    atXLarge
+    ...
+
+*/
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+body {
+  padding: 30px;
+  box-sizing: border-box;
+}

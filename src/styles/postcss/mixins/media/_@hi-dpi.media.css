@@ -1,0 +1,5 @@
+@define-mixin atHiDpi {
+  @media map(breakpoints, atHiDpi) {
+    @mixin-content;
+  }
+}

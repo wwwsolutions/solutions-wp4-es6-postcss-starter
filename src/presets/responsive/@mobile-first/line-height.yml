@@ -1,0 +1,12 @@
+# SET LINE-HEIGHT @MOBILE-FIRST-STRATEGY
+
+atDefault:            # FONT-SIZE @ DEFAULT BREAKPOINT
+  line-height: 1.5
+atSmall:
+  line-height: 1.6
+atMedium:
+  line-height: 1.7
+atLarge:
+  line-height: 1.8
+atXLarge:
+  line-height: 1.9

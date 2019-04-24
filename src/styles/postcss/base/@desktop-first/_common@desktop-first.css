@@ -1,0 +1,26 @@
+/* @DESKTOP-FIRST-STRATEGY
+
+  > WARNING!
+  > ORDER OF BREAKPOINTS MATTERS!
+
+    [default]
+    ...
+    atXLarge
+    atLarge
+    atMedium
+    atSmall
+
+*/
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+body {
+  padding: 30px;
+
+  @mixin atMedium {
+    padding: 0;
+  }
+}

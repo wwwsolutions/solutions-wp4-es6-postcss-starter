@@ -1,0 +1,44 @@
+/* @MOBILE-FIRST-STRATEGY
+
+  > WARNING!
+  > ORDER OF BREAKPOINTS MATTERS!
+
+    [default]
+    atSmall
+    atMedium
+    atLarge
+    atXLarge
+    ...
+
+*/
+
+html {
+
+  @map font-family primary;
+  @map font-size atDefault;
+  @map line-height atDefault;
+
+  @mixin atSmall {
+    @map font-size atSmall;
+    @map line-height atSmall;
+    content: "atSmall@mobile-first";
+  }
+
+  @mixin atMedium {
+    @map font-size atMedium;
+    @map line-height atMedium;
+    content: "atMedium@mobile-first";
+  }
+
+  @mixin atLarge {
+    @map font-size atLarge;
+    @map line-height atLarge;
+    content: "atLarge@mobile-first";
+  }
+
+  @mixin atXLarge {
+    @map font-size atXLarge;
+    @map line-height atXLarge;
+    content: "atXLarge@mobile-first";
+  }
+}

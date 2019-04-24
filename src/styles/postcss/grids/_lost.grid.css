@@ -1,0 +1,111 @@
+/* DOCUMENT INFORMATION
+
+  > XXXXXXXXXXXXXXXXXXXX
+  > XXXXXXXXXXXXXXXXXXXX
+  > XXXXXXXXXXXXXXXXXXXX
+
+/////////////////////////////////////////////////*/
+
+
+@lost flexbox flex;
+
+.grid {
+
+  /* CONTAINER
+    > COMMON/GLOBAL/SHARED
+   ----------------------------- */
+  &__container {
+    lost-center: 95%;
+
+    @mixin atSmall {
+      lost-center: 95%;
+    }
+
+    @mixin atMedium {
+      lost-center: 90%;
+    }
+
+    @mixin atLarge {
+      lost-center: 75%;
+    }
+
+    @mixin atXLarge {
+      lost-center: 60%;
+    }
+  }
+
+  /* HERO
+    > SPECIFIC SECTION
+   ----------------------------- */
+  &__hero {
+    lost-align: left;
+    /* margin-top: 60px; */
+    /* height: calc(100vh - (60px * 2)); */
+    height: 100vh;
+    width: 100%;
+
+    @mixin atMedium {
+      lost-align: center;
+    }
+  }
+
+  &__hero-item {
+    width: 100%;
+    @mixin atLarge {
+      width: 80%;
+    }
+  }
+
+  &__hero-buttons {
+    display: flex;
+    flex-direction: column;
+    @mixin atSmall {
+      flex-direction: row;
+    }
+  }
+
+  /* ECOSYSTEM
+    > SPECIFIC SECTION
+   ----------------------------- */
+  &__ecosystem  {
+    /* PLACEHOLDER */
+  }
+
+  &__ecosystem-deck  {
+    lost-center: 100%;
+  }
+
+  &__ecosystem-card  {
+    lost-column: 1/1;
+
+    @mixin atSmall {
+      lost-column: 1/2;
+    }
+
+    @mixin atXLarge {
+      lost-column: 1/4;
+    }
+  }
+
+  /* SELECT ALL CARDS BUT LAST */
+  &__ecosystem-card:not(:last-child) {
+    margin-bottom: 2em;
+    @mixin atXLarge {
+      margin-bottom: 0;
+    }
+  }
+
+  /* SELECT 3RD CARD  */
+  &__ecosystem-card:nth-child(3) {
+    @mixin atSmall {
+      margin-bottom: 0;
+    }
+  }
+
+  /* SELECT 4TH CARD  */
+  &__ecosystem-card:nth-child(4) {
+    @mixin atMedium {
+      margin-bottom: 0;
+    }
+  }
+}

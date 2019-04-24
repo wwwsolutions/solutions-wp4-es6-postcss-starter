@@ -1,0 +1,69 @@
+/* DOCUMENT INFORMATION
+
+  > CUSTOM FLOATS BASED GRID SYSTEM
+
+  > GRID PARAMS [styles/postcss/base/_grid.variables.css]
+
+/////////////////////////////////////////////////*/
+
+
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+
+  @mixin atMedium{
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $grid-gutter-vertical;
+
+    @mixin atMedium{
+      margin-bottom: $grid-gutter-vertical-small;
+    }
+  }
+
+  @util clearfix;
+
+  & [class^="col-"] {
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $grid-gutter-horizontal;
+
+      @mixin atMedium{
+        margin-right: 0;
+        margin-bottom: $grid-gutter-vertical-small;
+      }
+    }
+
+    @mixin atMedium{
+      width: 100% !important;
+    }
+  }
+
+  & .col-1-of-2 {
+    width: calc((100% - $grid-gutter-horizontal) / 2);
+  }
+
+  & .col-1-of-3 {
+    width: calc((100% - 2 * $grid-gutter-horizontal) / 3);
+  }
+
+  & .col-2-of-3 {
+    width: calc( 2 * ((100% - 2 * $grid-gutter-horizontal) / 3) + $grid-gutter-horizontal);
+  }
+
+  & .col-1-of-4 {
+    width: calc((100% - 3 * $grid-gutter-horizontal) / 4);
+  }
+
+  & .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * $grid-gutter-horizontal) / 4) + $grid-gutter-horizontal);
+  }
+
+  & .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * $grid-gutter-horizontal) / 4) + 2 * $grid-gutter-horizontal);
+  }
+}

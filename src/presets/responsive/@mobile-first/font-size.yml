@@ -1,0 +1,12 @@
+# SET FONT-SIZE @MOBILE-FIRST-STRATEGY
+
+atDefault:            # FONT-SIZE @DEFAULT-BREAKPOINT
+  font-size: 50%    # DEFINITION @1rem
+atSmall:
+  font-size: 56.25%
+atMedium:
+  font-size: 62.5%
+atLarge:
+  font-size: 75%
+atXLarge:
+  font-size: 75%

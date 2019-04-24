@@ -1,0 +1,28 @@
+# SET FONT FAMILY
+primary:
+  font-family: "'Lato-Regular', sans-serif"
+  font-weight: 400;
+  font-style: normal;
+  font-feature-settings: "'onum', 'kern', 'liga', 'dlig', 'clig'"
+  font-kerning: 'normal'
+
+secondary:
+  font-family: "'Lato-Light', sans-serif"
+  font-weight: 300;
+  font-style: normal;
+  font-feature-settings: "'onum', 'kern', 'liga', 'dlig', 'clig'"
+  font-kerning: 'normal'
+
+tertiary:
+  font-family: Monaco, Menlo, Consolas, "'Courier New', monospace"
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: "'onum', 'kern', 'liga', 'dlig', 'clig'"
+  font-kerning: 'normal'
+
+iconFont:
+  font-family: linea-basic-10
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: "'onum', 'kern', 'liga', 'dlig', 'clig'"
+  font-kerning: 'normal'

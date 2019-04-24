@@ -1,0 +1,44 @@
+/* @DESKTOP-FIRST-STRATEGY
+
+  > WARNING!
+  > ORDER OF BREAKPOINTS MATTERS!
+
+    [default]
+    ...
+    atXLarge
+    atLarge
+    atMedium
+    atSmall
+
+*/
+
+html {
+
+  @map font-family primary;
+  @map font-size atDefault;
+  @map line-height atDefault;
+
+  @mixin atXLarge {
+    @map font-size atXLarge;
+    @map line-height atXLarge;
+    content: "atXLarge@desktop-first";
+  }
+
+  @mixin atLarge {
+    @map font-size atLarge;
+    @map line-height atLarge;
+    content: "atLarge@desktop-first";
+  }
+
+  @mixin atMedium {
+    @map font-size atMedium;
+    @map line-height atMedium;
+    content: "atMedium@desktop-first";
+  }
+
+  @mixin atSmall {
+    @map font-size atSmall;
+    @map line-height atSmall;
+    content: "atSmall@desktop-first";
+  }
+}
