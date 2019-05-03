@@ -1,8 +1,9 @@
 {
-  "name": "solutions-ntrs-project",
-  "version": "1.0.0",
+  "name": "solutions-wp4-es6-postcss-starter",
+  "private": true,
+  "version": "1.0.1",
   "description": "fork of Jonas Schmedtmann Natours project, remake with postcss & bem.",
-  "repository": "https://github.com/wwwsolutions/solutions-ntrs-project",
+  "repository": "https://github.com/wwwsolutions/solutions-wp4-es6-postcss-starter",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",

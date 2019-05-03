@@ -1,0 +1,19 @@
+
+/* DOCUMENT INFORMATION
+
+  > UTILITY CLASSES
+
+  TRANSITION
+
+/////////////////////////////////////////////////*/
+
+.util {
+
+  &--transition-slow {
+    transition: all 1s ease-out;
+  }
+
+  &--transition-fast {
+    transition: all 0.5s ease-out;
+  }
+}

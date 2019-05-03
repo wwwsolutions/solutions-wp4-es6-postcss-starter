@@ -1,7 +1,7 @@
 /* @DESKTOP-FIRST-STRATEGY
 
   > WARNING!
-  > ORDER OF BREAKPOINTS MATTERS!
+  > ORDER OF BREAKPOINTS IS IMPORTANT!
 
     [default]
     ...
@@ -13,14 +13,31 @@
 */
 
 ::selection {
+  /*
   background-color: $color-primary;
+  background-color: var(--color-primary);
   color: $color-white;
+  color: var(--color-white);
+  */
 }
 
 body {
-  padding: 30px;
+
+  /* PLACEHOLDER */
+
+  @mixin atXLarge {
+    /* PLACEHOLDER */
+  }
+
+  @mixin atLarge {
+    /* PLACEHOLDER */
+  }
 
   @mixin atMedium {
-    padding: 0;
+    /* PLACEHOLDER */
+  }
+
+  @mixin atSmall {
+    /* PLACEHOLDER */
   }
 }

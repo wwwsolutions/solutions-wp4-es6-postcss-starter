@@ -1,0 +1,19 @@
+
+/* DOCUMENT INFORMATION
+
+  > UTILITY CLASSES
+
+  SCALING
+
+/////////////////////////////////////////////////*/
+
+.util {
+
+  &--scale-default {
+    transform: scale(1);
+  }
+
+  &--scale-up {
+    transform: scale(1.1);
+  }
+}

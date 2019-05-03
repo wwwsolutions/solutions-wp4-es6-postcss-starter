@@ -1,0 +1,126 @@
+/* DOCUMENT INFORMATION
+
+  > UTILITY CLASSES
+
+  DERIVED FROM @util https://ismamz.github.io/postcss-utilities/.
+
+/////////////////////////////////////////////////*/
+
+.util {
+
+  /* ASPECT RATIO
+  **********************************************/
+  .box-16-9 {
+    @util aspect-ratio(16:9);
+  }
+
+  /* CENTER
+  Block-level element of an unknown height and width, centered vertically within his parent.
+  Note: You should add position: relative to the parent element.
+  **********************************************/
+  &--center {
+    @util center;
+  }
+
+  /* CENTER BLOCK
+  Center block with a width.
+  **********************************************/
+  &--center-block {
+    @util center-block;
+  }
+
+  /* CIRCLE
+  Create a simple circle figure.
+  **********************************************/
+  &--center-block {
+    @util circle(200px, #268BD2);
+  }
+
+  /* CLEAR FIX
+  The clearfix hack is a popular way to contain floats without resorting to using presentational markup.
+  **********************************************/
+  &--cfx {
+    @util clearfix;
+  }
+
+  /* CLEAR FIX FOR IE8
+  Add to options: { ie8: true } to use this method.
+  **********************************************/
+  &--cfx-ie8 {
+    @util clearfix;
+  }
+
+  /* HIDE VISUALLY
+  Only display content to screen readers.
+  **********************************************/
+  &--hide-visually {
+    @util hide-visually;
+  }
+
+  /* RESET LIST
+  Remove default styles for lists.
+  **********************************************/
+  &--reset-list {
+    @util reset-list;
+  }
+
+  /* RESET TEXT
+  Remove default styles for text.
+  **********************************************/
+  &--reset-text {
+    @util reset-text;
+  }
+
+  /* TEXT HIDE
+  CSS image replacement.
+
+  Indent technique (default)
+    Note: It should be a block element.
+
+  Font technique
+    Add to options: { textHideMethod: 'font' } to use this method.
+  **********************************************/
+  &--text-hide {
+    @util text-hide;
+  }
+
+  /* MARGIN TOP */
+  &--mt-large {
+    margin-top: 4.5rem;
+  }
+
+  &--mt-huge {
+    margin-top: 6.25rem;
+  }
+
+  /* TEXT STROKE
+  Remove default styles for text.
+  **********************************************/
+  &--reset-text {
+    @util reset-text;
+  }
+
+  /* TRUNCATE
+  This mixin will truncate text, adding an ellipsis to represent overflow.
+  Note: Multiline ellipsis is not supported by Firefox, Edge & IE.
+  **********************************************/
+  &--truncate-single {
+    @util truncate;
+  }
+
+  &--truncate-multi-3 {
+    @util truncate(3, 1.5);
+  }
+
+  /* WORD WRAP
+  Easy way to change the word-wrap property.
+  **********************************************/
+
+  &--wordwrap {
+    @util word-wrap;
+  }
+
+  &--wordwrap-normal {
+    @util word-wrap(normal);
+  }
+}

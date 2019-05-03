@@ -7,39 +7,5 @@
 /////////////////////////////////////////////////*/
 
 .section {
-  /* background-color: tomato !important; */
-
-  /* SECTIONS PADDING MODIFIERS */
-  /* &--p-none {
-    padding: 0;
-  } */
-
-  /* SECTIONS BACKGROUND MODIFIERS */
-  /* &--bg-hero {
-    background-color: var(--color-dark-gray);
-    height:
-  } */
-
-  /* &--bg-footer {
-    background-color: var(--color-dark-gray);
-  } */
-
-  /* &--bg-features {
-    background: linear-gradient(0deg, rgba(243, 72, 104, 0.9) 20.58676945993915%, rgba(242, 71, 104, 0.9) 20.58676945993915%, var(--color-dark-purple) 80.58772027129817%), url("/assets/images/puzzle.svg") top center repeat;
-    background-attachment: fixed;
-
-    @mixin atLarge {
-      &.lazyloaded {
-      }
-    }
-  } */
-
-  /* &--bg-typography {
-    background-color: var(--color-codepen-dark);
-  } */
-
-  /* &--bg-instructions {
-    background: linear-gradient(-120deg, rgba(243, 72, 104, 0.9) 20.58676945993915%, rgba(242, 71, 104, 0.9) 20.58676945993915%, var(--color-dark-purple) 80.58772027129817%);
-    background-attachment: fixed;
-  } */
+  /* PLACEHOLDER */
 }

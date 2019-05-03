@@ -1,0 +1,18 @@
+/* DOCUMENT INFORMATION
+
+  > UTILITY CLASSES
+
+  OPACITY
+
+/////////////////////////////////////////////////*/
+
+.util {
+
+  &--opacity-1 {
+    opacity: 1;
+  }
+  &--opacity-0 {
+    opacity: 0;
+  }
+
+}

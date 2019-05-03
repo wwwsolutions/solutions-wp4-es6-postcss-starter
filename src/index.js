@@ -1,7 +1,6 @@
-/* DOCUMENT INFORMATION
+/* ROOT
 
-  ROOT.
-  IMPORTS PLUGINS, ICONS, FONTS, STYLES, APPLICATION.
+  > IMPORTS PLUGINS, ICONS, FONTS, STYLES, APPLICATION.
 
 //////////////////////////////////////////////*/
 
