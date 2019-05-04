@@ -4,6 +4,11 @@ module.exports = {
     'postcss-import': { // https://github.com/postcss/postcss-import
     },
 
+    'postcss-assets': { // https://github.com/borodean/postcss-assets
+      basePath: 'src/',
+      loadPaths: ['assets/fonts/', 'assets/icons/', 'assets/images/', 'assets/sprites/', 'assets/videos/']
+    },
+
     'postcss-map': { // https://www.npmjs.com/package/postcss-map
       basePath: 'src/presets',
       maps: [

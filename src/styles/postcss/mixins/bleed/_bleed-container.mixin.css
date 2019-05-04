@@ -1,0 +1,11 @@
+/*
+  > CONTAINER BLEEDS LEFT & RIGHT OUTSIDE OF CONTAINER
+  > TAKES FULL WIDTH OF A VIEWPORT
+*/
+@define-mixin bleedContainer $width: 100vw, $height: 30vh, $padding: 3rem, $bgcol: #ee6352 {
+  max-width: $width;
+  width: $width;
+  max-height: $height;
+  background-color: $bgcol;
+  margin: 0 calc( -$width / 2 + 50% );
+}

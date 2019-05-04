@@ -38,16 +38,16 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* MEDIA QUERIES */
-@import "mixins/media/_@small.media.css";
-@import "mixins/media/_@medium.media.css";
-@import "mixins/media/_@large.media.css";
-@import "mixins/media/_@xlarge.media.css";
-@import "mixins/media/_@lo-dpi.media.css";
-@import "mixins/media/_@hi-dpi.media.css";
+@import "mixins/media/_@small.mixin.css";
+@import "mixins/media/_@medium.mixin.css";
+@import "mixins/media/_@large.mixin.css";
+@import "mixins/media/_@xlarge.mixin.css";
+@import "mixins/media/_@lo-dpi.mixin.css";
+@import "mixins/media/_@hi-dpi.mixin.css";
 
-/* CLEARFIX */
-@import "mixins/clearfix/_clearfix.css";
-
+/* BLEED */
+@import "mixins/bleed/_bleed-image.mixin.css";
+@import "mixins/bleed/_bleed-container.mixin.css";
 
 
 /* MANDATORY /////////////////////////////////////////////////////////////////////////////////////////
@@ -62,7 +62,6 @@
 @import "utils/_transition.utils.css";
 @import "utils/_scale.utils.css";
 @import "utils/_opacity.utils.css";
-@import "utils/_image.utils.css";
 
 
 

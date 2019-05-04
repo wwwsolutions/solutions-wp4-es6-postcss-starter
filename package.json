@@ -1,7 +1,7 @@
 {
   "name": "solutions-wp4-es6-postcss-starter",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fork of Jonas Schmedtmann Natours project, remake with postcss & bem.",
   "repository": "https://github.com/wwwsolutions/solutions-wp4-es6-postcss-starter",
   "main": "index.js",
@@ -72,6 +72,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "picturefill": "^3.0.3",
     "postcss": "^7.0.14",
+    "postcss-assets": "^5.0.0",
     "postcss-atroot": "^0.1.3",
     "postcss-calc": "^7.0.1",
     "postcss-color-function": "^4.1.0",

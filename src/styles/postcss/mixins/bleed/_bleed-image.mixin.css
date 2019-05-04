@@ -1,0 +1,11 @@
+/*
+  > IMAGE BLEEDS LEFT & RIGHT OUTSIDE OF CONTAINER
+  > TAKES FULL WIDTH OF A VIEWPORT
+*/
+@define-mixin bleedImage $width: 100vw, $height: 30vh {
+  max-width: $width;
+  width: $width;
+  max-height: $height;
+  object-fit: cover;
+  margin: 0 calc( -$width / 2 + 50% );
+}
