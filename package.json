@@ -63,7 +63,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "html-webpack-template": "^6.2.0",
-    "http-server": "^0.11.1",
+    "http-server": "^0.12.3",
     "jsdom-quokka-plugin": "^1.0.14",
     "lazysizes": "^4.1.7",
     "lost": "^8.3.1",
@@ -101,8 +101,8 @@
     "webpack": "^4.30.0",
     "webpack-assets-manifest": "^3.1.1",
     "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.3.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {

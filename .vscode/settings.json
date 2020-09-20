@@ -1,0 +1,12 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#093048",
+        "titleBar.activeBackground": "#0D4465",
+        "titleBar.activeForeground": "#F6FBFE"
+    },
+    "cSpell.ignoreWords": [
+        "atroot",
+        "flexbugs",
+        "jsmath"
+    ]
+}
